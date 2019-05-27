@@ -1,0 +1,6 @@
+<h1><%=Hello, session[:name]%></h1>
+
+<%=link_to 'secret page', '/secret'%>
+
+<%=button_to "delete user", {controller: 'sessions', action: 'destroy'}%>
+
